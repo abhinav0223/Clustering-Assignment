@@ -2,14 +2,14 @@
 
 # Wine Dataset Clustering Analysis
 
-This project performs clustering on the UCI Wine dataset using different preprocessing techniques and clustering algorithms. The performance is evaluated using standard clustering metrics.
+This project performs Clustering on the UCI Wine dataset using different preprocessing techniques and clustering algorithms. The performance is evaluated using standard clustering metrics.
 
 # Dataset
 Source: UCI Machine Learning Repository
 
-Features: 13 numerical features describing chemical properties of wine
+Features: 13 numerical features describing the chemical properties of wine
 
-Target: Type of wine (used only for reference, not in clustering)
+Target: Type of wine (used only for reference, not in Clustering)
 
  # Clustering Techniques
  K-Means Clustering,
@@ -30,8 +30,8 @@ Calinski-Harabasz Index (higher is better),
 Davies-Bouldin Score (lower is better)
 
  # Results Summary
-Results were computed for each combination of preprocessing and clustering algorithm with 3, 4, and 5 clusters. Mean Shift estimates clusters automatically.
-Results are saved in: wine_clustering_results.csv
+Results were computed for each combination of preprocessing and clustering algorithms with 3, 4, and 5 clusters. Mean Shift estimates clusters automatically.
+Results are saved in wine_clustering_results.csv
 
  # Observations
 Best Silhouette Scores were generally observed using Raw or Normalized data with KMeans.
@@ -43,4 +43,4 @@ Normalization + Transformation improved performance for some methods (esp. Hiera
 Run the notebook or Python script on any Python environment or Google Colab.
 
  # Conclusion
-Clustering performance varies based on preprocessing. KMeans and Hierarchical clustering worked best with normalized or raw features. PCA helps visualization but might reduce performance slightly.
+Clustering performance varies based on preprocessing. KMeans and Hierarchical Clustering worked best with normalized or raw features. PCA helps visualization but might reduce performance slightly.
