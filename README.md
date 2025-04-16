@@ -12,21 +12,21 @@ Features: 13 numerical features describing chemical properties of wine
 Target: Type of wine (used only for reference, not in clustering)
 
  # Clustering Techniques
- K-Means Clustering
- Hierarchical Clustering
+ K-Means Clustering,
+ Hierarchical Clustering,
  Mean Shift Clustering
 
  # Preprocessing Techniques
-Raw (no preprocessing)
-Normalization (StandardScaler)
-Transformation (PowerTransformer)
-PCA (2 components)
-Normalization + Transformation
+Raw (no preprocessing),
+Normalization (StandardScaler),
+Transformation (PowerTransformer),
+PCA (2 components),
+Normalization + Transformation,
 Normalization + Transformation + PCA
 
 # Evaluation Metrics
-Silhouette Score (higher is better)
-Calinski-Harabasz Index (higher is better)
+Silhouette Score (higher is better),
+Calinski-Harabasz Index (higher is better),
 Davies-Bouldin Score (lower is better)
 
  # Results Summary
